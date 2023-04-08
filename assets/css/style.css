@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+            /* HEADER  */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    width: 100%;
+    top: 0;
+    height: 46px;
+    background-color: black;
+    z-index: 10;
+    position: fixed;
+  
+} 
+
+#nav  {
+    display: inline-block;
+}
+#nav  li {
+    display: inline-block;
+    line-height: 46px;
+    position: relative;   
+}
+#nav > li> a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 24px;
+    color: #fff;
+    display: block;
+}
+
+.subnav {
+   display: none;
+}
+#nav  .subnav {
+    position: absolute;   
+    background-color: #fff;
+    box-shadow: 0   0   10px rgba(0, 0, 0, 0.7);
+}
+.subnav li a {
+    color:black;
+    display: block;  
+    text-decoration: none;
+    padding: 0 24px;
+}
+.subnav li {
+    width: 100%;
+}
+.search-btn {
+    float: right;
+    color: #fff;
+    padding: 12px 24px;
+}
+.menu-section {
+    float: right;
+    color: #fff;
+    padding: 12px 24px;
+}
+#nav > li:hover>a {
+    background-color: #ccc;
+    color:black;
+}
+.subnav li:hover a {
+    background-color: #ccc;
+    color:black;
+}
+#nav  li:hover .subnav {
+    display: block;
+    
+}
+
+#nav-section .search-btn:hover {
+    background-color: red;
+} 
+#nav-section .menu-section:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+            /* SLIDER  */
+
+
+#slider {  
+    background: url('../slider/slider1.jpg') top center / cover no-repeat ;
+    padding-top: 50%;
+    bac
+   margin-top: 46px;
+   position: relative;    
+}
+.text-content {
+    padding: 32px 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+}
+
+#slider .text-heading {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+    
+}
+#slider  .text-disc {
+    margin: 15px 0;
+}
+
+ /* CONTENT  */
+
+
+#content {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+       /* ABOUT  */
+.about-section {
+    padding: 0 16px;
+    height: 700px;
+}
+#content .content-inner {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+    
+}
+#content .head-section {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+#content .header-sub-section {
+    margin: 15px 0;
+    font-style: italic;
+    opacity: 0.7;
+    text-align: center;
+}
+#content .disc-section {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.4;
+    margin-right: 20px;
+} 
+#content .member-list {
+    text-align: center;
+    padding: 32px 0;
+}
+#content .member-items {
+    width: 33.33333%;
+    float: left;
+}
+.member-img {
+    width: 154px;
+}
+.member-list .member-name {
+    margin: 15px 0;
+}
+
+     /* TOUR  */
